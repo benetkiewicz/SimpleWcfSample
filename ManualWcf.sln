@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.Common", "ManualWcf.Common\ManualWcf.Common.csproj", "{EBB429BE-9C1D-4FF6-9AD1-4A6D58982AD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.Service", "ManualWcf.Service\ManualWcf.Service.csproj", "{A25AE808-19C1-4055-9517-B4027B27D448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.Client", "ManualWcf.Client\ManualWcf.Client.csproj", "{F31C953B-7FF8-40FA-A6A2-5D3568922766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.ClientTests", "ManualWcf.ClientTests\ManualWcf.ClientTests.csproj", "{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.Console", "ManualWcf.Console\ManualWcf.Console.csproj", "{212AFFAA-32C3-4504-B173-4ECF9603F526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManualWcf.Web", "ManualWcf.Web\ManualWcf.Web.csproj", "{64F91F79-0ACF-45A2-8BC2-869D4B978042}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerSide", "ServerSide", "{31D9CA8C-B53B-4001-8EAE-570CF295F265}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientSide", "ClientSide", "{8DF0A930-D283-4C9C-A48C-E92D593F75EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBB429BE-9C1D-4FF6-9AD1-4A6D58982AD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB429BE-9C1D-4FF6-9AD1-4A6D58982AD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB429BE-9C1D-4FF6-9AD1-4A6D58982AD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB429BE-9C1D-4FF6-9AD1-4A6D58982AD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25AE808-19C1-4055-9517-B4027B27D448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25AE808-19C1-4055-9517-B4027B27D448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25AE808-19C1-4055-9517-B4027B27D448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25AE808-19C1-4055-9517-B4027B27D448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31C953B-7FF8-40FA-A6A2-5D3568922766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31C953B-7FF8-40FA-A6A2-5D3568922766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31C953B-7FF8-40FA-A6A2-5D3568922766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31C953B-7FF8-40FA-A6A2-5D3568922766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212AFFAA-32C3-4504-B173-4ECF9603F526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212AFFAA-32C3-4504-B173-4ECF9603F526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212AFFAA-32C3-4504-B173-4ECF9603F526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212AFFAA-32C3-4504-B173-4ECF9603F526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64F91F79-0ACF-45A2-8BC2-869D4B978042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F91F79-0ACF-45A2-8BC2-869D4B978042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F91F79-0ACF-45A2-8BC2-869D4B978042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F91F79-0ACF-45A2-8BC2-869D4B978042}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A25AE808-19C1-4055-9517-B4027B27D448} = {31D9CA8C-B53B-4001-8EAE-570CF295F265}
+		{F31C953B-7FF8-40FA-A6A2-5D3568922766} = {8DF0A930-D283-4C9C-A48C-E92D593F75EA}
+		{14AAF89A-0AAC-4E0B-8FC5-79ECACE0B9E6} = {8DF0A930-D283-4C9C-A48C-E92D593F75EA}
+		{212AFFAA-32C3-4504-B173-4ECF9603F526} = {31D9CA8C-B53B-4001-8EAE-570CF295F265}
+		{64F91F79-0ACF-45A2-8BC2-869D4B978042} = {31D9CA8C-B53B-4001-8EAE-570CF295F265}
+	EndGlobalSection
+EndGlobal
